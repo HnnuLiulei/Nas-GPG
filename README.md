@@ -14,4 +14,4 @@
 了解ftp服务器相关内容。
 
 三、方案整体介绍
-![image](https://github.com/HnnuLiulei/Nas-GPG/tree/master/img/frame.png)
+![image](https://github.com/HnnuLiulei/Nas-GPG/blob/master/img/frame.png)
