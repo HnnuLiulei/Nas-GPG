@@ -9,7 +9,7 @@
 
 ## 二、技术需求
 * 初级linux操作基础
-* 初级python基础
+* 初级python基础（pyhton版本为3.5）
 * 了解非对称加密算法原理
 * 了解ftp服务器相关内容
 
@@ -19,8 +19,10 @@
 
 ## 四、具体实现
 ### 4.1、客户机端
-你首先要在客户机上已经成功安装gpg软件，并且已经成功导入公钥pub和私钥sec。
-#### 4.1.1、GPG加解密模块
-python对应的gpg库为gnupg，这里需要逐一详细代码见gpg_decrypt.py <br>
-
-未完待续
+首先要在客户机上已经成功安装gpg软件，并且已经成功导入公钥pub和私钥sec。
+#### 4.1.1 GPG加解密模块
+需要安装python对应模块为python-gnupg，具体设置详细代码见加密模块文件gpg_encrypt.py和解密模块文件gpg_decrypt.py，请根据情况进行内容替换。 <br>
+这部分内容参考了网上的一篇博文，里面介绍了gnupg可用于加解密、数字签名等方面，本文只用到了数据加解密内容。原文链接地址https://cloud.tencent.com/developer/article/1176041 <br>
+#### 4.1.2 ftp数据备份
+需要安装python对应模块为python-ftplib，具体设置详细代码见Ftp管理模块ftp.py，请根据情况进行内容替换。 <br>
+未完待续。。。
